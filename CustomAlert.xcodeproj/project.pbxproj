@@ -18,6 +18,7 @@
 		D7244AFA16E728330069ACFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7244AF916E728330069ACFD /* Default-568h@2x.png */; };
 		D7244AFD16E728330069ACFD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7244AFB16E728330069ACFD /* MainStoryboard.storyboard */; };
 		D7244B0016E728330069ACFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7244AFF16E728330069ACFD /* ViewController.m */; };
+		D7244B0A16E728DC0069ACFD /* AlertPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = D7244B0916E728DC0069ACFD /* AlertPrompt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		D7244AFC16E728330069ACFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D7244AFE16E728330069ACFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D7244AFF16E728330069ACFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7244B0816E728DC0069ACFD /* AlertPrompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertPrompt.h; sourceTree = "<group>"; };
+		D7244B0916E728DC0069ACFD /* AlertPrompt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertPrompt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		D7244AD716E728320069ACFD = {
 			isa = PBXGroup;
 			children = (
+				D7244B0716E728950069ACFD /* AlertPrompt */,
 				D7244AE916E728320069ACFD /* CustomAlert */,
 				D7244AE216E728320069ACFD /* Frameworks */,
 				D7244AE116E728320069ACFD /* Products */,
@@ -105,6 +109,15 @@
 				D7244AF916E728330069ACFD /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7244B0716E728950069ACFD /* AlertPrompt */ = {
+			isa = PBXGroup;
+			children = (
+				D7244B0816E728DC0069ACFD /* AlertPrompt.h */,
+				D7244B0916E728DC0069ACFD /* AlertPrompt.m */,
+			);
+			name = AlertPrompt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +189,7 @@
 				D7244AF016E728330069ACFD /* main.m in Sources */,
 				D7244AF416E728330069ACFD /* AppDelegate.m in Sources */,
 				D7244B0016E728330069ACFD /* ViewController.m in Sources */,
+				D7244B0A16E728DC0069ACFD /* AlertPrompt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
